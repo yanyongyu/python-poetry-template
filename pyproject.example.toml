@@ -15,7 +15,7 @@ classifiers = []
 python = "^3.8"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.0.275"
+ruff = "^0.1.0"
 isort = "^5.10.1"
 black = "^23.1.0"
 nonemoji = "^0.1.2"
