@@ -17,6 +17,9 @@
             "source.organizeImports": "explicit"
           }
         },
+        "[markdown]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
         "[javascript]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
