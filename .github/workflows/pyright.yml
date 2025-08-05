@@ -1,0 +1,23 @@
+name: Pyright Lint
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  pyright:
+    name: Pyright Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python environment
+        uses: ./.github/actions/setup-python
+
+      - name: Run Pyright
+        uses: jakebailey/pyright-action@v2
+        with:
+          pylance-version: latest-release

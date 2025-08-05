@@ -1,7 +1,7 @@
 # ----- Project -----
 
-# Created by https://www.toptal.com/developers/gitignore/api/python,node,visualstudiocode,jetbrains,macos,windows,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,node,visualstudiocode,jetbrains,macos,windows,linux
+# Created by https://www.toptal.com/developers/gitignore/api/node,linux,macos,python,windows,jetbrains,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,linux,macos,python,windows,jetbrains,visualstudiocode
 
 ### JetBrains ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -467,14 +467,19 @@ cython_debug/
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
 poetry.toml
 
+# ruff
+.ruff_cache/
+
+# LSP config files
+pyrightconfig.json
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# !.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
@@ -513,4 +518,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/python,node,visualstudiocode,jetbrains,macos,windows,linux
+# End of https://www.toptal.com/developers/gitignore/api/node,linux,macos,python,windows,jetbrains,visualstudiocode
